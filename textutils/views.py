@@ -56,3 +56,6 @@ def analyze(request):                              #Method for all variables
 
     return render(request, 'analyze.html', params)
 
+def about(request):
+    return render(request, 'about.html')
+

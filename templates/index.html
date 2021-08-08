@@ -22,7 +22,7 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="/about">About Us</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Contact</a>
@@ -43,7 +43,7 @@
 
 
     <div class="container">
-        #ensures that only forms that have originated from trusted domains can be used to POST
+        <!--ensures that only forms that have originated from trusted domain can be used to POST-->
         <form action='/analyze' method='post'> {% csrf_token %}
   <div class="form-group">
     <label for="exampleFormControlTextarea1">Enter Your Text Here:</label>
